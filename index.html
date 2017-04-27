@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html>
-<header>
+<head>
 <title>Stephanie McCallum</title>
-</header>
+</head>
 <style>
-#even_trap {
-	border-right: 450px solid orange;
-	border-top: 50px solid transparent;
-	border-bottom: 50px solid transparent;
-	height: 100px;
-	width: 0px;
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
 }
-#odd_trap {
-	border-left: 450px solid orange;
-	border-top: 50px solid transparent;
-	border-bottom: 50px solid transparent;
-	height: 100px;
-	width: 0px;
+#top {
+	display: -webkit-flex;
+	display: flex;
+	position: relative;
+	height: 400px;
+	width: 100%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	background-image: linear-gradient(#022660, #8b009b);
 }
+#title {
+	display: -webkit-flex;
+	display: flex;
+	color: #ffd987;
+	margin: auto;
+}
+
 </style>
+<header id="top">
+	<div id="title">
+		<h1>Hi, I'm Stephanie.</h1>
+	</div>
+</header>
 <body>
 <div id='even_trap'><h1>Hello World</h1></div>
-<div id='odd_trap'><p>I'm hosted with GitHub Pages.</p><div>
+<div id='odd_trap'>I'm hosted with GitHub Pages.<div>
 
 
 </body>
